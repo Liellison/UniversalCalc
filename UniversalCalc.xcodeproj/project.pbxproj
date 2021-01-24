@@ -24,6 +24,13 @@
 		0F37BF6225AE15520017A293 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F37BF6125AE15520017A293 /* NotificationController.swift */; };
 		0F37BF6425AE15520017A293 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F37BF6325AE15520017A293 /* ComplicationController.swift */; };
 		0F37BF6625AE15530017A293 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F37BF6525AE15530017A293 /* Assets.xcassets */; };
+		0F37BF8C25AE53740017A293 /* CoinsTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F37BF8B25AE53740017A293 /* CoinsTO.swift */; };
+		0F37BF9325AE54E90017A293 /* CoinsDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F37BF9225AE54E90017A293 /* CoinsDao.swift */; };
+		50600B56C351A742A3C4A5C4 /* Pods_UniversalCalcTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8006AB16E338EB2631975F35 /* Pods_UniversalCalcTests.framework */; };
+		79AB6BD7DDEA067391F573E2 /* Pods_UniversalCalc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E1620CDCFDCEE245EE0CA72 /* Pods_UniversalCalc.framework */; };
+		91CEA9BD86A8998F2650AFD0 /* Pods_UniversalCalc_UniversalCalcUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F702C6C5C66B1F71C5351FB /* Pods_UniversalCalc_UniversalCalcUITests.framework */; };
+		B54DB647F16A4C4073E0B63F /* Pods_UniversalCalc_WatchKit_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CCE6F226C708A6319AE60B9 /* Pods_UniversalCalc_WatchKit_Extension.framework */; };
+		BA3A2DFAD094426545D2CC61 /* Pods_UniversalCalc_WatchKit_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33167ABB6DD8AADBBC4DB6E1 /* Pods_UniversalCalc_WatchKit_App.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +90,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0870690CDBEAA8939268D119 /* Pods-UniversalCalcTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UniversalCalcTests.release.xcconfig"; path = "Target Support Files/Pods-UniversalCalcTests/Pods-UniversalCalcTests.release.xcconfig"; sourceTree = "<group>"; };
 		0F37BF1F25AE154F0017A293 /* UniversalCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UniversalCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F37BF2225AE154F0017A293 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0F37BF2425AE154F0017A293 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -109,13 +117,38 @@
 		0F37BF6525AE15530017A293 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0F37BF6725AE15530017A293 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0F37BF6825AE15530017A293 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		0F37BF8B25AE53740017A293 /* CoinsTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinsTO.swift; sourceTree = "<group>"; };
+		0F37BF9225AE54E90017A293 /* CoinsDao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinsDao.swift; sourceTree = "<group>"; };
+		2EC2B64E4DE7DF3E423CDD90 /* Pods-UniversalCalc WatchKit App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UniversalCalc WatchKit App.debug.xcconfig"; path = "Target Support Files/Pods-UniversalCalc WatchKit App/Pods-UniversalCalc WatchKit App.debug.xcconfig"; sourceTree = "<group>"; };
+		2F702C6C5C66B1F71C5351FB /* Pods_UniversalCalc_UniversalCalcUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UniversalCalc_UniversalCalcUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		33167ABB6DD8AADBBC4DB6E1 /* Pods_UniversalCalc_WatchKit_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UniversalCalc_WatchKit_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CCE6F226C708A6319AE60B9 /* Pods_UniversalCalc_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UniversalCalc_WatchKit_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		55540BF59FF0DFE36D382FD5 /* Pods-UniversalCalc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UniversalCalc.release.xcconfig"; path = "Target Support Files/Pods-UniversalCalc/Pods-UniversalCalc.release.xcconfig"; sourceTree = "<group>"; };
+		5C533B81BA532E4344637192 /* Pods-UniversalCalc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UniversalCalc.debug.xcconfig"; path = "Target Support Files/Pods-UniversalCalc/Pods-UniversalCalc.debug.xcconfig"; sourceTree = "<group>"; };
+		6EF521D59FF4BC931929FA0A /* Pods-UniversalCalc WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UniversalCalc WatchKit Extension.debug.xcconfig"; path = "Target Support Files/Pods-UniversalCalc WatchKit Extension/Pods-UniversalCalc WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		8006AB16E338EB2631975F35 /* Pods_UniversalCalcTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UniversalCalcTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		830DBF48CA4306ECA6619557 /* Pods-UniversalCalc WatchKit App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UniversalCalc WatchKit App.release.xcconfig"; path = "Target Support Files/Pods-UniversalCalc WatchKit App/Pods-UniversalCalc WatchKit App.release.xcconfig"; sourceTree = "<group>"; };
+		9E1620CDCFDCEE245EE0CA72 /* Pods_UniversalCalc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UniversalCalc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD9DEC938849CCA39262BBC2 /* Pods-UniversalCalcTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UniversalCalcTests.debug.xcconfig"; path = "Target Support Files/Pods-UniversalCalcTests/Pods-UniversalCalcTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CB3780E79CDAEC1BF1516598 /* Pods-UniversalCalc-UniversalCalcUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UniversalCalc-UniversalCalcUITests.debug.xcconfig"; path = "Target Support Files/Pods-UniversalCalc-UniversalCalcUITests/Pods-UniversalCalc-UniversalCalcUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EA0280FD847EB991D93E1A10 /* Pods-UniversalCalc-UniversalCalcUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UniversalCalc-UniversalCalcUITests.release.xcconfig"; path = "Target Support Files/Pods-UniversalCalc-UniversalCalcUITests/Pods-UniversalCalc-UniversalCalcUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F579106CF3AE73F079618CBF /* Pods-UniversalCalc WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UniversalCalc WatchKit Extension.release.xcconfig"; path = "Target Support Files/Pods-UniversalCalc WatchKit Extension/Pods-UniversalCalc WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		09CBFA00F0727B82164A8276 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA3A2DFAD094426545D2CC61 /* Pods_UniversalCalc_WatchKit_App.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0F37BF1C25AE154F0017A293 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79AB6BD7DDEA067391F573E2 /* Pods_UniversalCalc.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,6 +156,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50600B56C351A742A3C4A5C4 /* Pods_UniversalCalcTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,6 +164,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91CEA9BD86A8998F2650AFD0 /* Pods_UniversalCalc_UniversalCalcUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +172,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B54DB647F16A4C4073E0B63F /* Pods_UniversalCalc_WatchKit_Extension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,6 +188,8 @@
 				0F37BF4D25AE15510017A293 /* UniversalCalc WatchKit App */,
 				0F37BF5C25AE15520017A293 /* UniversalCalc WatchKit Extension */,
 				0F37BF2025AE154F0017A293 /* Products */,
+				40551FDD1EAB0FBCF9DD27F4 /* Pods */,
+				37A9947EC0BD4F5F2E6CF432 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -170,6 +208,8 @@
 		0F37BF2125AE154F0017A293 /* UniversalCalc */ = {
 			isa = PBXGroup;
 			children = (
+				0F37BF8825AE50660017A293 /* Datasource */,
+				0F37BF8625AE4FF90017A293 /* Configuration */,
 				0F37BF2225AE154F0017A293 /* AppDelegate.swift */,
 				0F37BF2425AE154F0017A293 /* SceneDelegate.swift */,
 				0F37BF2625AE154F0017A293 /* ViewController.swift */,
@@ -223,6 +263,76 @@
 			path = "UniversalCalc WatchKit Extension";
 			sourceTree = "<group>";
 		};
+		0F37BF8625AE4FF90017A293 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				0F37BF8725AE500E0017A293 /* Enums */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		0F37BF8725AE500E0017A293 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		0F37BF8825AE50660017A293 /* Datasource */ = {
+			isa = PBXGroup;
+			children = (
+				0F37BF8A25AE533C0017A293 /* Entities */,
+				0F37BF8925AE50750017A293 /* Dao */,
+			);
+			path = Datasource;
+			sourceTree = "<group>";
+		};
+		0F37BF8925AE50750017A293 /* Dao */ = {
+			isa = PBXGroup;
+			children = (
+				0F37BF9225AE54E90017A293 /* CoinsDao.swift */,
+			);
+			path = Dao;
+			sourceTree = "<group>";
+		};
+		0F37BF8A25AE533C0017A293 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				0F37BF8B25AE53740017A293 /* CoinsTO.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		37A9947EC0BD4F5F2E6CF432 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9E1620CDCFDCEE245EE0CA72 /* Pods_UniversalCalc.framework */,
+				33167ABB6DD8AADBBC4DB6E1 /* Pods_UniversalCalc_WatchKit_App.framework */,
+				4CCE6F226C708A6319AE60B9 /* Pods_UniversalCalc_WatchKit_Extension.framework */,
+				2F702C6C5C66B1F71C5351FB /* Pods_UniversalCalc_UniversalCalcUITests.framework */,
+				8006AB16E338EB2631975F35 /* Pods_UniversalCalcTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		40551FDD1EAB0FBCF9DD27F4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5C533B81BA532E4344637192 /* Pods-UniversalCalc.debug.xcconfig */,
+				55540BF59FF0DFE36D382FD5 /* Pods-UniversalCalc.release.xcconfig */,
+				2EC2B64E4DE7DF3E423CDD90 /* Pods-UniversalCalc WatchKit App.debug.xcconfig */,
+				830DBF48CA4306ECA6619557 /* Pods-UniversalCalc WatchKit App.release.xcconfig */,
+				6EF521D59FF4BC931929FA0A /* Pods-UniversalCalc WatchKit Extension.debug.xcconfig */,
+				F579106CF3AE73F079618CBF /* Pods-UniversalCalc WatchKit Extension.release.xcconfig */,
+				CB3780E79CDAEC1BF1516598 /* Pods-UniversalCalc-UniversalCalcUITests.debug.xcconfig */,
+				EA0280FD847EB991D93E1A10 /* Pods-UniversalCalc-UniversalCalcUITests.release.xcconfig */,
+				AD9DEC938849CCA39262BBC2 /* Pods-UniversalCalcTests.debug.xcconfig */,
+				0870690CDBEAA8939268D119 /* Pods-UniversalCalcTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -230,6 +340,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0F37BF7325AE15530017A293 /* Build configuration list for PBXNativeTarget "UniversalCalc" */;
 			buildPhases = (
+				7DF549D93876AD7466EB7D1B /* [CP] Check Pods Manifest.lock */,
 				0F37BF1B25AE154F0017A293 /* Sources */,
 				0F37BF1C25AE154F0017A293 /* Frameworks */,
 				0F37BF1D25AE154F0017A293 /* Resources */,
@@ -249,6 +360,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0F37BF7625AE15530017A293 /* Build configuration list for PBXNativeTarget "UniversalCalcTests" */;
 			buildPhases = (
+				6466D9DB97395242810F7495 /* [CP] Check Pods Manifest.lock */,
 				0F37BF3125AE15510017A293 /* Sources */,
 				0F37BF3225AE15510017A293 /* Frameworks */,
 				0F37BF3325AE15510017A293 /* Resources */,
@@ -267,6 +379,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0F37BF7925AE15530017A293 /* Build configuration list for PBXNativeTarget "UniversalCalcUITests" */;
 			buildPhases = (
+				12A3ED9D68BD092C74EEEA1B /* [CP] Check Pods Manifest.lock */,
 				0F37BF3C25AE15510017A293 /* Sources */,
 				0F37BF3D25AE15510017A293 /* Frameworks */,
 				0F37BF3E25AE15510017A293 /* Resources */,
@@ -285,8 +398,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0F37BF6F25AE15530017A293 /* Build configuration list for PBXNativeTarget "UniversalCalc WatchKit App" */;
 			buildPhases = (
+				0641FBA1E8FC44FCC466F42B /* [CP] Check Pods Manifest.lock */,
 				0F37BF4725AE15510017A293 /* Resources */,
 				0F37BF6E25AE15530017A293 /* Embed App Extensions */,
+				09CBFA00F0727B82164A8276 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -302,6 +417,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0F37BF6B25AE15530017A293 /* Build configuration list for PBXNativeTarget "UniversalCalc WatchKit Extension" */;
 			buildPhases = (
+				B0CDA8CFDC1426AB906EBE7F /* [CP] Check Pods Manifest.lock */,
 				0F37BF5425AE15520017A293 /* Sources */,
 				0F37BF5525AE15520017A293 /* Frameworks */,
 				0F37BF5625AE15520017A293 /* Resources */,
@@ -409,6 +525,119 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0641FBA1E8FC44FCC466F42B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UniversalCalc WatchKit App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		12A3ED9D68BD092C74EEEA1B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UniversalCalc-UniversalCalcUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6466D9DB97395242810F7495 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UniversalCalcTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7DF549D93876AD7466EB7D1B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UniversalCalc-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0CDA8CFDC1426AB906EBE7F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UniversalCalc WatchKit Extension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0F37BF1B25AE154F0017A293 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -417,6 +646,8 @@
 				0F37BF2725AE154F0017A293 /* ViewController.swift in Sources */,
 				0F37BF2325AE154F0017A293 /* AppDelegate.swift in Sources */,
 				0F37BF2525AE154F0017A293 /* SceneDelegate.swift in Sources */,
+				0F37BF8C25AE53740017A293 /* CoinsTO.swift in Sources */,
+				0F37BF9325AE54E90017A293 /* CoinsDao.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -613,6 +844,7 @@
 		};
 		0F37BF6C25AE15530017A293 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EF521D59FF4BC931929FA0A /* Pods-UniversalCalc WatchKit Extension.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
@@ -635,6 +867,7 @@
 		};
 		0F37BF6D25AE15530017A293 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F579106CF3AE73F079618CBF /* Pods-UniversalCalc WatchKit Extension.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
@@ -658,6 +891,7 @@
 		};
 		0F37BF7025AE15530017A293 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EC2B64E4DE7DF3E423CDD90 /* Pods-UniversalCalc WatchKit App.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -678,6 +912,7 @@
 		};
 		0F37BF7125AE15530017A293 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 830DBF48CA4306ECA6619557 /* Pods-UniversalCalc WatchKit App.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -699,13 +934,14 @@
 		};
 		0F37BF7425AE15530017A293 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C533B81BA532E4344637192 /* Pods-UniversalCalc.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H3V2LZ4MW4;
 				INFOPLIST_FILE = UniversalCalc/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -720,13 +956,14 @@
 		};
 		0F37BF7525AE15530017A293 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55540BF59FF0DFE36D382FD5 /* Pods-UniversalCalc.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H3V2LZ4MW4;
 				INFOPLIST_FILE = UniversalCalc/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -742,6 +979,7 @@
 		};
 		0F37BF7725AE15530017A293 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD9DEC938849CCA39262BBC2 /* Pods-UniversalCalcTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -765,6 +1003,7 @@
 		};
 		0F37BF7825AE15530017A293 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0870690CDBEAA8939268D119 /* Pods-UniversalCalcTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -789,6 +1028,7 @@
 		};
 		0F37BF7A25AE15530017A293 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB3780E79CDAEC1BF1516598 /* Pods-UniversalCalc-UniversalCalcUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -811,6 +1051,7 @@
 		};
 		0F37BF7B25AE15530017A293 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA0280FD847EB991D93E1A10 /* Pods-UniversalCalc-UniversalCalcUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
