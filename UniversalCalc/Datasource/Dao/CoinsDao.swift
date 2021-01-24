@@ -8,7 +8,7 @@
 import Foundation
 
 class CoinsDao {
-    class func pesquisarCEP(_ coin: String, completion: @escaping (CoinsTo) -> Void) {
+    class func getAllCoinsList(_ coin: String, completion: @escaping (CoinsTo) -> Void) {
             guard let url = URL(string: "https://economia.awesomeapi.com.br/json/all/") else { return }
             URLSession.shared.dataTask(with: url) { (data, response, error) in
                 if error == nil {
