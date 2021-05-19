@@ -11,8 +11,24 @@
             <objects>
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="UniversalCalc_WatchKit_App" customModuleProvider="target">
                     <items>
-                        <label alignment="left" text="Universal calculate" id="oeA-h5-lzl"/>
+                        <table alignment="left" id="2GO-0f-nEf">
+                            <items>
+                                <tableRow identifier="MyRowController" id="Pq8-cR-8W7" customClass="MyRowControllerClass" customModule="UniversalCalc_WatchKit_App">
+                                    <group key="rootItem" width="1" alignment="left" id="F21-iG-sl3">
+                                        <items>
+                                            <label alignment="left" text="Label" id="XJf-yJ-Fh3"/>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="myLabel" destination="XJf-yJ-Fh3" id="Llv-pY-idB"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
                     </items>
+                    <connections>
+                        <outlet property="myTable" destination="2GO-0f-nEf" id="bTQ-hB-HPh"/>
+                    </connections>
                 </controller>
             </objects>
             <point key="canvasLocation" x="220" y="345"/>

@@ -11,8 +11,10 @@ import Foundation
 
 class InterfaceController: WKInterfaceController {
 
+    @IBOutlet weak var myTable: WKInterfaceTable!
+    
     override func awake(withContext context: Any?) {
-        // Configure interface objects here.
+        myTable.setNumberOfRows(3, withRowType: "MyRowController")
     }
     
     override func willActivate() {

@@ -26,8 +26,14 @@
 		0F37BF6625AE15530017A293 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F37BF6525AE15530017A293 /* Assets.xcassets */; };
 		0F37BF8C25AE53740017A293 /* CoinsTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F37BF8B25AE53740017A293 /* CoinsTO.swift */; };
 		0F37BF9325AE54E90017A293 /* CoinsDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F37BF9225AE54E90017A293 /* CoinsDao.swift */; };
+		0F4F867925BDD862007D8AD5 /* MyRowControllerClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4F867825BDD862007D8AD5 /* MyRowControllerClass.swift */; };
+		0F88AFB325BD4DDF0052B25C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F88AFB225BD4DDF0052B25C /* AppDelegate.swift */; };
+		0F88AFB525BD4DDF0052B25C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F88AFB425BD4DDF0052B25C /* ViewController.swift */; };
+		0F88AFB725BD4DE70052B25C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F88AFB625BD4DE70052B25C /* Assets.xcassets */; };
+		0F88AFBA25BD4DE70052B25C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F88AFB825BD4DE70052B25C /* Main.storyboard */; };
+		0F88AFC625BD4DE80052B25C /* UniversalCalcMacTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F88AFC525BD4DE80052B25C /* UniversalCalcMacTests.swift */; };
+		0F88AFD125BD4DE80052B25C /* UniversalCalcMacUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F88AFD025BD4DE80052B25C /* UniversalCalcMacUITests.swift */; };
 		50600B56C351A742A3C4A5C4 /* Pods_UniversalCalcTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8006AB16E338EB2631975F35 /* Pods_UniversalCalcTests.framework */; };
-		79AB6BD7DDEA067391F573E2 /* Pods_UniversalCalc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E1620CDCFDCEE245EE0CA72 /* Pods_UniversalCalc.framework */; };
 		91CEA9BD86A8998F2650AFD0 /* Pods_UniversalCalc_UniversalCalcUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F702C6C5C66B1F71C5351FB /* Pods_UniversalCalc_UniversalCalcUITests.framework */; };
 		B54DB647F16A4C4073E0B63F /* Pods_UniversalCalc_WatchKit_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CCE6F226C708A6319AE60B9 /* Pods_UniversalCalc_WatchKit_Extension.framework */; };
 		BA3A2DFAD094426545D2CC61 /* Pods_UniversalCalc_WatchKit_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33167ABB6DD8AADBBC4DB6E1 /* Pods_UniversalCalc_WatchKit_App.framework */; };
@@ -61,6 +67,20 @@
 			proxyType = 1;
 			remoteGlobalIDString = 0F37BF5725AE15520017A293;
 			remoteInfo = "UniversalCalc WatchKit Extension";
+		};
+		0F88AFC225BD4DE80052B25C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0F37BF1725AE154F0017A293 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F88AFAF25BD4DDF0052B25C;
+			remoteInfo = UniversalCalcMac;
+		};
+		0F88AFCD25BD4DE80052B25C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0F37BF1725AE154F0017A293 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F88AFAF25BD4DDF0052B25C;
+			remoteInfo = UniversalCalcMac;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -119,6 +139,20 @@
 		0F37BF6825AE15530017A293 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 		0F37BF8B25AE53740017A293 /* CoinsTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinsTO.swift; sourceTree = "<group>"; };
 		0F37BF9225AE54E90017A293 /* CoinsDao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinsDao.swift; sourceTree = "<group>"; };
+		0F4F867825BDD862007D8AD5 /* MyRowControllerClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRowControllerClass.swift; sourceTree = "<group>"; };
+		0F88AFB025BD4DDF0052B25C /* UniversalCalcMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UniversalCalcMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F88AFB225BD4DDF0052B25C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0F88AFB425BD4DDF0052B25C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0F88AFB625BD4DE70052B25C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0F88AFB925BD4DE70052B25C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0F88AFBB25BD4DE70052B25C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F88AFBC25BD4DE70052B25C /* UniversalCalcMac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = UniversalCalcMac.entitlements; sourceTree = "<group>"; };
+		0F88AFC125BD4DE80052B25C /* UniversalCalcMacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UniversalCalcMacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F88AFC525BD4DE80052B25C /* UniversalCalcMacTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversalCalcMacTests.swift; sourceTree = "<group>"; };
+		0F88AFC725BD4DE80052B25C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F88AFCC25BD4DE80052B25C /* UniversalCalcMacUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UniversalCalcMacUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F88AFD025BD4DE80052B25C /* UniversalCalcMacUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversalCalcMacUITests.swift; sourceTree = "<group>"; };
+		0F88AFD225BD4DE80052B25C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2EC2B64E4DE7DF3E423CDD90 /* Pods-UniversalCalc WatchKit App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UniversalCalc WatchKit App.debug.xcconfig"; path = "Target Support Files/Pods-UniversalCalc WatchKit App/Pods-UniversalCalc WatchKit App.debug.xcconfig"; sourceTree = "<group>"; };
 		2F702C6C5C66B1F71C5351FB /* Pods_UniversalCalc_UniversalCalcUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UniversalCalc_UniversalCalcUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		33167ABB6DD8AADBBC4DB6E1 /* Pods_UniversalCalc_WatchKit_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UniversalCalc_WatchKit_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -148,7 +182,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79AB6BD7DDEA067391F573E2 /* Pods_UniversalCalc.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +209,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0F88AFAD25BD4DDF0052B25C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F88AFBE25BD4DE80052B25C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F88AFC925BD4DE80052B25C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -187,6 +241,9 @@
 				0F37BF4325AE15510017A293 /* UniversalCalcUITests */,
 				0F37BF4D25AE15510017A293 /* UniversalCalc WatchKit App */,
 				0F37BF5C25AE15520017A293 /* UniversalCalc WatchKit Extension */,
+				0F88AFB125BD4DDF0052B25C /* UniversalCalcMac */,
+				0F88AFC425BD4DE80052B25C /* UniversalCalcMacTests */,
+				0F88AFCF25BD4DE80052B25C /* UniversalCalcMacUITests */,
 				0F37BF2025AE154F0017A293 /* Products */,
 				40551FDD1EAB0FBCF9DD27F4 /* Pods */,
 				37A9947EC0BD4F5F2E6CF432 /* Frameworks */,
@@ -201,6 +258,9 @@
 				0F37BF4025AE15510017A293 /* UniversalCalcUITests.xctest */,
 				0F37BF4925AE15510017A293 /* UniversalCalc WatchKit App.app */,
 				0F37BF5825AE15520017A293 /* UniversalCalc WatchKit Extension.appex */,
+				0F88AFB025BD4DDF0052B25C /* UniversalCalcMac.app */,
+				0F88AFC125BD4DE80052B25C /* UniversalCalcMacTests.xctest */,
+				0F88AFCC25BD4DE80052B25C /* UniversalCalcMacUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -208,11 +268,11 @@
 		0F37BF2125AE154F0017A293 /* UniversalCalc */ = {
 			isa = PBXGroup;
 			children = (
+				0FF0348B2654756A0031797C /* ViewController */,
 				0F37BF8825AE50660017A293 /* Datasource */,
 				0F37BF8625AE4FF90017A293 /* Configuration */,
 				0F37BF2225AE154F0017A293 /* AppDelegate.swift */,
 				0F37BF2425AE154F0017A293 /* SceneDelegate.swift */,
-				0F37BF2625AE154F0017A293 /* ViewController.swift */,
 				0F37BF2825AE154F0017A293 /* Main.storyboard */,
 				0F37BF2B25AE15500017A293 /* Assets.xcassets */,
 				0F37BF2D25AE15500017A293 /* LaunchScreen.storyboard */,
@@ -259,6 +319,7 @@
 				0F37BF6525AE15530017A293 /* Assets.xcassets */,
 				0F37BF6725AE15530017A293 /* Info.plist */,
 				0F37BF6825AE15530017A293 /* PushNotificationPayload.apns */,
+				0F4F867825BDD862007D8AD5 /* MyRowControllerClass.swift */,
 			);
 			path = "UniversalCalc WatchKit Extension";
 			sourceTree = "<group>";
@@ -303,6 +364,45 @@
 			path = Entities;
 			sourceTree = "<group>";
 		};
+		0F88AFB125BD4DDF0052B25C /* UniversalCalcMac */ = {
+			isa = PBXGroup;
+			children = (
+				0F88AFB225BD4DDF0052B25C /* AppDelegate.swift */,
+				0F88AFB425BD4DDF0052B25C /* ViewController.swift */,
+				0F88AFB625BD4DE70052B25C /* Assets.xcassets */,
+				0F88AFB825BD4DE70052B25C /* Main.storyboard */,
+				0F88AFBB25BD4DE70052B25C /* Info.plist */,
+				0F88AFBC25BD4DE70052B25C /* UniversalCalcMac.entitlements */,
+			);
+			path = UniversalCalcMac;
+			sourceTree = "<group>";
+		};
+		0F88AFC425BD4DE80052B25C /* UniversalCalcMacTests */ = {
+			isa = PBXGroup;
+			children = (
+				0F88AFC525BD4DE80052B25C /* UniversalCalcMacTests.swift */,
+				0F88AFC725BD4DE80052B25C /* Info.plist */,
+			);
+			path = UniversalCalcMacTests;
+			sourceTree = "<group>";
+		};
+		0F88AFCF25BD4DE80052B25C /* UniversalCalcMacUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0F88AFD025BD4DE80052B25C /* UniversalCalcMacUITests.swift */,
+				0F88AFD225BD4DE80052B25C /* Info.plist */,
+			);
+			path = UniversalCalcMacUITests;
+			sourceTree = "<group>";
+		};
+		0FF0348B2654756A0031797C /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0F37BF2625AE154F0017A293 /* ViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
 		37A9947EC0BD4F5F2E6CF432 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -329,7 +429,6 @@
 				AD9DEC938849CCA39262BBC2 /* Pods-UniversalCalcTests.debug.xcconfig */,
 				0870690CDBEAA8939268D119 /* Pods-UniversalCalcTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -431,6 +530,59 @@
 			productReference = 0F37BF5825AE15520017A293 /* UniversalCalc WatchKit Extension.appex */;
 			productType = "com.apple.product-type.watchkit2-extension";
 		};
+		0F88AFAF25BD4DDF0052B25C /* UniversalCalcMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F88AFD925BD4DE80052B25C /* Build configuration list for PBXNativeTarget "UniversalCalcMac" */;
+			buildPhases = (
+				0F88AFAC25BD4DDF0052B25C /* Sources */,
+				0F88AFAD25BD4DDF0052B25C /* Frameworks */,
+				0F88AFAE25BD4DDF0052B25C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UniversalCalcMac;
+			productName = UniversalCalcMac;
+			productReference = 0F88AFB025BD4DDF0052B25C /* UniversalCalcMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0F88AFC025BD4DE80052B25C /* UniversalCalcMacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F88AFDA25BD4DE80052B25C /* Build configuration list for PBXNativeTarget "UniversalCalcMacTests" */;
+			buildPhases = (
+				0F88AFBD25BD4DE80052B25C /* Sources */,
+				0F88AFBE25BD4DE80052B25C /* Frameworks */,
+				0F88AFBF25BD4DE80052B25C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0F88AFC325BD4DE80052B25C /* PBXTargetDependency */,
+			);
+			name = UniversalCalcMacTests;
+			productName = UniversalCalcMacTests;
+			productReference = 0F88AFC125BD4DE80052B25C /* UniversalCalcMacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0F88AFCB25BD4DE80052B25C /* UniversalCalcMacUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F88AFDB25BD4DE80052B25C /* Build configuration list for PBXNativeTarget "UniversalCalcMacUITests" */;
+			buildPhases = (
+				0F88AFC825BD4DE80052B25C /* Sources */,
+				0F88AFC925BD4DE80052B25C /* Frameworks */,
+				0F88AFCA25BD4DE80052B25C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0F88AFCE25BD4DE80052B25C /* PBXTargetDependency */,
+			);
+			name = UniversalCalcMacUITests;
+			productName = UniversalCalcMacUITests;
+			productReference = 0F88AFCC25BD4DE80052B25C /* UniversalCalcMacUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -457,6 +609,17 @@
 					0F37BF5725AE15520017A293 = {
 						CreatedOnToolsVersion = 12.3;
 					};
+					0F88AFAF25BD4DDF0052B25C = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					0F88AFC025BD4DE80052B25C = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 0F88AFAF25BD4DDF0052B25C;
+					};
+					0F88AFCB25BD4DE80052B25C = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 0F88AFAF25BD4DDF0052B25C;
+					};
 				};
 			};
 			buildConfigurationList = 0F37BF1A25AE154F0017A293 /* Build configuration list for PBXProject "UniversalCalc" */;
@@ -477,6 +640,9 @@
 				0F37BF3F25AE15510017A293 /* UniversalCalcUITests */,
 				0F37BF4825AE15510017A293 /* UniversalCalc WatchKit App */,
 				0F37BF5725AE15520017A293 /* UniversalCalc WatchKit Extension */,
+				0F88AFAF25BD4DDF0052B25C /* UniversalCalcMac */,
+				0F88AFC025BD4DE80052B25C /* UniversalCalcMacTests */,
+				0F88AFCB25BD4DE80052B25C /* UniversalCalcMacUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -520,6 +686,29 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F37BF6625AE15530017A293 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F88AFAE25BD4DDF0052B25C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F88AFB725BD4DE70052B25C /* Assets.xcassets in Resources */,
+				0F88AFBA25BD4DE70052B25C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F88AFBF25BD4DE80052B25C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F88AFCA25BD4DE80052B25C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -672,9 +861,35 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F37BF6225AE15520017A293 /* NotificationController.swift in Sources */,
+				0F4F867925BDD862007D8AD5 /* MyRowControllerClass.swift in Sources */,
 				0F37BF6425AE15520017A293 /* ComplicationController.swift in Sources */,
 				0F37BF6025AE15520017A293 /* ExtensionDelegate.swift in Sources */,
 				0F37BF5E25AE15520017A293 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F88AFAC25BD4DDF0052B25C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F88AFB525BD4DDF0052B25C /* ViewController.swift in Sources */,
+				0F88AFB325BD4DDF0052B25C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F88AFBD25BD4DE80052B25C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F88AFC625BD4DE80052B25C /* UniversalCalcMacTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F88AFC825BD4DE80052B25C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F88AFD125BD4DE80052B25C /* UniversalCalcMacUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -701,6 +916,16 @@
 			target = 0F37BF5725AE15520017A293 /* UniversalCalc WatchKit Extension */;
 			targetProxy = 0F37BF5A25AE15520017A293 /* PBXContainerItemProxy */;
 		};
+		0F88AFC325BD4DE80052B25C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0F88AFAF25BD4DDF0052B25C /* UniversalCalcMac */;
+			targetProxy = 0F88AFC225BD4DE80052B25C /* PBXContainerItemProxy */;
+		};
+		0F88AFCE25BD4DE80052B25C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0F88AFAF25BD4DDF0052B25C /* UniversalCalcMac */;
+			targetProxy = 0F88AFCD25BD4DE80052B25C /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
@@ -726,6 +951,14 @@
 				0F37BF4F25AE15510017A293 /* Base */,
 			);
 			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+		0F88AFB825BD4DE70052B25C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F88AFB925BD4DE70052B25C /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -1073,6 +1306,144 @@
 			};
 			name = Release;
 		};
+		0F88AFD325BD4DE80052B25C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = UniversalCalcMac/UniversalCalcMac.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = H3V2LZ4MW4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = UniversalCalcMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.liellison.UniversalCalcMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		0F88AFD425BD4DE80052B25C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = UniversalCalcMac/UniversalCalcMac.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = H3V2LZ4MW4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = UniversalCalcMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.liellison.UniversalCalcMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		0F88AFD525BD4DE80052B25C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = H3V2LZ4MW4;
+				INFOPLIST_FILE = UniversalCalcMacTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.liellison.UniversalCalcMacTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UniversalCalcMac.app/Contents/MacOS/UniversalCalcMac";
+			};
+			name = Debug;
+		};
+		0F88AFD625BD4DE80052B25C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = H3V2LZ4MW4;
+				INFOPLIST_FILE = UniversalCalcMacTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.liellison.UniversalCalcMacTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UniversalCalcMac.app/Contents/MacOS/UniversalCalcMac";
+			};
+			name = Release;
+		};
+		0F88AFD725BD4DE80052B25C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = H3V2LZ4MW4;
+				INFOPLIST_FILE = UniversalCalcMacUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.liellison.UniversalCalcMacUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = UniversalCalcMac;
+			};
+			name = Debug;
+		};
+		0F88AFD825BD4DE80052B25C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = H3V2LZ4MW4;
+				INFOPLIST_FILE = UniversalCalcMacUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.liellison.UniversalCalcMacUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = UniversalCalcMac;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1126,6 +1497,33 @@
 			buildConfigurations = (
 				0F37BF7A25AE15530017A293 /* Debug */,
 				0F37BF7B25AE15530017A293 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F88AFD925BD4DE80052B25C /* Build configuration list for PBXNativeTarget "UniversalCalcMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F88AFD325BD4DE80052B25C /* Debug */,
+				0F88AFD425BD4DE80052B25C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F88AFDA25BD4DE80052B25C /* Build configuration list for PBXNativeTarget "UniversalCalcMacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F88AFD525BD4DE80052B25C /* Debug */,
+				0F88AFD625BD4DE80052B25C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F88AFDB25BD4DE80052B25C /* Build configuration list for PBXNativeTarget "UniversalCalcMacUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F88AFD725BD4DE80052B25C /* Debug */,
+				0F88AFD825BD4DE80052B25C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
