@@ -269,13 +269,10 @@
 			isa = PBXGroup;
 			children = (
 				0FF0348B2654756A0031797C /* ViewController */,
-				0F37BF8825AE50660017A293 /* Datasource */,
-				0F37BF8625AE4FF90017A293 /* Configuration */,
+				0F37BF8825AE50660017A293 /* Interactor */,
+				0F37BF8625AE4FF90017A293 /* Presenter */,
 				0F37BF2225AE154F0017A293 /* AppDelegate.swift */,
-				0F37BF2425AE154F0017A293 /* SceneDelegate.swift */,
-				0F37BF2825AE154F0017A293 /* Main.storyboard */,
 				0F37BF2B25AE15500017A293 /* Assets.xcassets */,
-				0F37BF2D25AE15500017A293 /* LaunchScreen.storyboard */,
 				0F37BF3025AE15500017A293 /* Info.plist */,
 			);
 			path = UniversalCalc;
@@ -324,28 +321,23 @@
 			path = "UniversalCalc WatchKit Extension";
 			sourceTree = "<group>";
 		};
-		0F37BF8625AE4FF90017A293 /* Configuration */ = {
+		0F37BF8625AE4FF90017A293 /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
-				0F37BF8725AE500E0017A293 /* Enums */,
+				0F37BF2425AE154F0017A293 /* SceneDelegate.swift */,
+				0F37BF2825AE154F0017A293 /* Main.storyboard */,
+				0F37BF2D25AE15500017A293 /* LaunchScreen.storyboard */,
 			);
-			path = Configuration;
+			path = Presenter;
 			sourceTree = "<group>";
 		};
-		0F37BF8725AE500E0017A293 /* Enums */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Enums;
-			sourceTree = "<group>";
-		};
-		0F37BF8825AE50660017A293 /* Datasource */ = {
+		0F37BF8825AE50660017A293 /* Interactor */ = {
 			isa = PBXGroup;
 			children = (
 				0F37BF8A25AE533C0017A293 /* Entities */,
 				0F37BF8925AE50750017A293 /* Dao */,
 			);
-			path = Datasource;
+			path = Interactor;
 			sourceTree = "<group>";
 		};
 		0F37BF8925AE50750017A293 /* Dao */ = {
